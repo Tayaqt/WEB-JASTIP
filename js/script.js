@@ -21,7 +21,7 @@ const shoppingCart = document.querySelector(".shopping-cart");
 
 document.querySelector("#shopping-cart-button").onclick = (e) => {
   shoppingCart.classList.toggle("active");
-  e.preventDefault;
+  e.preventDefault();
 };
 // document.querySelector("#search-button").onclick(function(e){
 //   searchForm.classList.toggle("active");
