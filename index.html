@@ -26,14 +26,35 @@
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Show</a>
+        <a href="#products">On Show Ticket</a>
         <a href="#contact">Kontak</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
         <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
+
+      <!-- Search Form Start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form End -->
+
+      <!-- Shopping Cart Start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="/img/show1.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30k</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart End -->
     </nav>
     <!-- Navbar end -->
 
@@ -53,7 +74,7 @@
 
       <div class="row">
         <div class="about-img">
-          <img src="../img/jastip.png" class="foto" alt="Tentang Kami" />
+          <img src="/img/jastip.png" class="foto" alt="Tentang Kami" />
         </div>
         <div class="content">
           <h3>Kenapa memilih jasa dikami</h3>
@@ -81,18 +102,111 @@
 
       <div class="row">
         <div class="menu-card">
-          <img src="../img/2.jpg" alt="Espresso" class="menu-card-img" />
+          <img src="/img/2.jpg" alt="Espresso" class="menu-card-img" />
           <h3 class="menu-card-tittle">- SHOW 1 -</h3>
           <p class="menu-card-price">FEE (300k - 400k)</p>
         </div>
         <div class="menu-card">
-          <img src="../img/2.jpg" alt="Espresso" class="menu-card-img" />
+          <img src="/img/2.jpg" alt="Espresso" class="menu-card-img" />
           <h3 class="menu-card-tittle">- SHOW 2 -</h3>
           <p class="menu-card-price">FEE (300k - 500k)</p>
         </div>
       </div>
     </section>
     <!-- Menu Section End -->
+
+    <!-- product Section Start -->
+    <section class="products" id="products">
+      <h2><span>On Show</span> Ticket</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis id
+        consequatur dolorum.
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="/img/show2.png" alt="show-1" />
+          </div>
+          <div class="product-content">
+            <h3>G-DRAGON</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">FEE (300K-600K) <span>500K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="/img/show1.jpg" alt="show-2" />
+          </div>
+          <div class="product-content">
+            <h3>NCT THE DREAM SHOW 4</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">FEE (300K-500K) <span>600K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="/img/show3.webp" alt="show-3" />
+          </div>
+          <div class="product-content">
+            <h3>BLACK PINK</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">FEE (200K-400K) <span>500K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="/img/show4.jpg" alt="show-4" />
+          </div>
+          <div class="product-content">
+            <h3>THE BOYZ</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">FEE (150K-300K) <span>400K</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product Section End -->
 
     <!-- Contact Section Start -->
     <section id="contact" class="contact">
@@ -158,6 +272,6 @@
     </script>
 
     <!-- my javaScript -->
-    <script src="../js/script.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>
