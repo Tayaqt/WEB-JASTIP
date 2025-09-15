@@ -179,9 +179,22 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
+  mask-image: linear-gradient(rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0.1));
+  z-index: 0;
 }
 
-.hero::after {
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* ubah 0.5 sesuai tingkat kegelapan */
+  z-index: -1; /* letakkan di belakang konten tapi di atas background */
+}
+
+/* .hero::after {
   content: "";
   display: block;
   position: absolute;
@@ -193,11 +206,15 @@ body {
     rgba(255, 255, 255, 0) 55%
   );
   bottom: 0;
-}
+} */
 
 .hero .content {
   padding: 1.4rem 7%;
-  max-width: 60rem;
+  /* max-width: 60rem; */
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 150px;
 }
 
 .hero .content h1 {
